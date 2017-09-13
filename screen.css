@@ -52,6 +52,11 @@ table {
 
 /* Using modular scale website */
 html {
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	text-rendering: optimizeLegibility;
 	font-size: 18px;
 	font-size: 1.125em; /* 18 / 16 = 1.125 */
 	line-height: 21.6px; /* 21.6 / 18 = 1.2 */
@@ -64,6 +69,12 @@ html {
 figure, p {
 	margin-bottom: ;
 	padding-bottom: 1.2em ;
+}
+p {
+	text-indent: 1.222222em;
+}
+h1 + p {
+	text-indent: 0;
 }
 
 h1 {
