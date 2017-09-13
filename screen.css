@@ -50,6 +50,13 @@ table {
 /* End Reset CSS */
 /* Begin Site Styles */
 
+html {
+	font-size: 18px;
+	font-size: 1.125em; /* 18 / 16 = 1.125 */
+	line-height: 3em;
+}
+
+
 
 /* Responsive Images */
 img {
