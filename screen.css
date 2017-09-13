@@ -50,6 +50,7 @@ table {
 /* End Reset CSS */
 /* Begin Site Styles */
 
+/* Using modular scale website */
 html {
 	font-size: 18px;
 	font-size: 1.125em; /* 18 / 16 = 1.125 */
@@ -57,10 +58,14 @@ html {
 	line-height: 22px;
 	line-height: 1.222222em; /* 22 / 19 = 1.22222 */
 }
-p {
+figure, p {
 	margin-bottom: ;
 	padding-bottom: 1.2em ;
 }
+
+h1 {
+	font-size: 50.02px; /* 50.02px / 18px = 2.778em */
+	line-height: 66px; /* 66px / 50.02 px = 1.319 em; 3 base lines grid */
 
 
 /* Responsive Images */
