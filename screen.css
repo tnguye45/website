@@ -57,6 +57,9 @@ html {
 	line-height: 21.6px; /* 21.6 / 18 = 1.2 */
 	line-height: 22px;
 	line-height: 1.222222em; /* 22 / 19 = 1.22222 */
+	padding-top:  2.444444em;
+	padding-left: 1.222222em;
+	padding-right: 1.222222em;
 }
 figure, p {
 	margin-bottom: ;
