@@ -52,15 +52,15 @@ table {
 
 /* Using modular scale website */
 html {
+	background-color: #E6E6FA; /*lavender */
+	font-family: 'Quicksand', sans-serif;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	text-size-adjust: 100%;
 	text-rendering: optimizeLegibility;
-	font-size: 18px;
 	font-size: 1.125em; /* 18 / 16 = 1.125 */
 	line-height: 21.6px; /* 21.6 / 18 = 1.2 */
-	line-height: 22px;
 	line-height: 1.222222em; /* 22 / 19 = 1.22222 */
 	padding-top:  2.444444em;
 	padding-left: 1.222222em;
@@ -78,8 +78,8 @@ h1 + p {
 }
 
 h1 {
-	font-size: 50.02px; /* 50.02px / 18px = 2.778em */
-	line-height: 66px; /* 66px / 50.02 px = 1.319 em; 3 base lines grid */
+	font-size: 54px; /* 54px / 18px = 3em */
+	line-height: 67.5px; /* 67.5px / 54 px = 1.319 em; 3 base lines grid */
 
 
 /* Responsive Images */
