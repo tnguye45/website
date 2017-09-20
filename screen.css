@@ -50,6 +50,10 @@ table {
 /* End Reset CSS */
 /* Begin Site Styles */
 
+/* Base */
+/* Simple, HTML/element selectors*/
+/*Typographic styles; colors; spacing (above&below) */
+
 /* Using modular scale website */
 html {
 	background-color: #FFFFFO; /*Ivory */
@@ -85,6 +89,11 @@ h1 {
 	padding-bottom: 1em;
 	text-indent: 16em;
 
+/* Layout Styles */
+/* ID selectors (major landmark/ globar HTML structures) */
+header#header {
+	/* Layout styles go here */
+}
 
 /* Responsive Images */
 img {
