@@ -87,13 +87,35 @@ h1 {
 	font-weight: bold;
 	color: #20B2AA; /* LightSeaGreen */
 	padding-bottom: 1em;
-	text-indent: 16em;
+	text-indent: 14em;
 
 /* Layout Styles */
 /* ID selectors (major landmark/ globar HTML structures) */
-header#header {
+#header {
 	/* Layout styles go here */
 }
+
+
+/* Modular Styles */
+/*
+Class selectors, sometimes descendent/child selectors,
+repeating styles throughout a site/page
+*/
+.agenda {
+	/* Repeating styles */
+}
+.agenda li {
+
+}
+
+/* State Styles */
+/* JavaScript or media-query dependent styles */
+@media screen and (min-width: 680px) {
+	#page{
+		width: 50%;
+	}
+}
+
 
 /* Responsive Images */
 img {
